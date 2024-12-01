@@ -24,7 +24,7 @@ Task 1. **Expanding the VAE Architecture:**
    This task aims to compare the performance of the modified and original architectures, identify which performs better, and explain the differences in performance.
 
 Task 2. **Evaluating Different VAE Configurations:**  
-   Six configurations of the baseline VAE architecture are explored by modifying the hidden layer dimensions (`h_dim`) and latent dimensions (`z_dim`):  
+   Six configurations of the 5-layer VAE architecture are explored by modifying the hidden layer dimensions (`h_dim`) and latent dimensions (`z_dim`):  
    - Configurations: `(400,40)`, `(200,50)`, `(400,70)`, `(300,30)`, `(250,80)`, and `(300,5)`.  
    For each configuration, the model's performance is analyzed using optimal loss values and visual reconstruction outputs. This evaluation helps identify the most effective configuration and provides insights into why certain setups perform better than others.
 
