@@ -5,7 +5,9 @@ In this project we will use the Fashion MNIST computer vision digit dataset and 
 ![image](https://github.com/user-attachments/assets/ace66f52-b82d-40dc-885f-b6a45f8f1880)
 
 Figure3:
+
 A: A sample Variational Auto-encoder. The VAE contains  one encoder and one decoder part. Encoder starts from x,h and ends in z=(σ + μ). [(σ + μ) learns latent representation or key features of the images]. Decoder starts from z=(σ + μ) to h2 and ends in x2. Decoder utilizes learned important represntation from z=(σ + μ) and tries to regenerate the image in x2.
+
 B: A sample normal auto-encoder. A normal autoenoder contains only a fully connected layer z instead of a pair of layers (σ + μ) to learn the hidden representation. 
 
 ![image](https://github.com/user-attachments/assets/e6482ff1-bea6-4154-b30c-dfaf4585a86b)
